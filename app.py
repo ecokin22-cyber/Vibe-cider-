@@ -1,4 +1,4 @@
-"""
+    """
 Vibe Coder • Prompt Cleanser & Triage Engine
 High-end Streamlit phone-app wrapper
 """
@@ -15,7 +15,7 @@ from google.genai import types
 # ────────────────────────────────────────────────
 st.set_page_config(
     page_title="Vibe Coder",
-    page_icon="⚡",
+    page_icon="I",
     layout="centered",
     initial_sidebar_state="collapsed",
 )
@@ -391,7 +391,7 @@ if run_clicked:
 st.markdown(
     """
     <div style="text-align:center; margin-top:2.5rem; opacity:0.5; font-size:0.75rem;">
-        Built for vibe coders • Powered by Gemini 1.5 Flash free tier
+        Built for vibe coders • Powered by Gemini 2.0 Flash free tier
     </div>
     """,
     unsafe_allow_html=True,
